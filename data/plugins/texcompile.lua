@@ -39,6 +39,7 @@ local function init_opt(opt)
   local res = {
     command = "",
     arguments = {},
+    working_dir = ".",
     on_complete = function() end,
   }
   for k, v in pairs(res) do
